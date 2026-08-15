@@ -1,0 +1,20 @@
+{
+  "name": "hongclaw",
+  "version": "1.0.0",
+  "description": "鸿蒙电脑原生 AI Agent：对标 OpenClaw，纯 Node.js 零依赖，Gateway + Web UI",
+  "license": "MIT",
+  "bin": {
+    "hongclaw": "./hongclaw.js"
+  },
+  "keywords": [
+    "agent",
+    "deepseek",
+    "gateway",
+    "webui",
+    "harmonyos",
+    "openclaw"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  }
+}
