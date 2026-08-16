@@ -16,7 +16,7 @@ const SKILLS_STATE_PATH = path.join(HOME, 'skills-state.json');
 const ASSETS_DIR = path.join(__dirname, 'assets');
 const MEMORY_PATH = path.join(HOME, 'memory.md');
 const MAID_SRC = path.join(os.homedir(), 'dsh-deep-whale', 'maid-atelier', 'lib', 'client.js');
-const VERSION = '1.4.0';
+const VERSION = '1.4.1';
 
 function defaultConfig() {
   return {
@@ -891,7 +891,7 @@ body.sidebar-collapsed #sidebar{display:none}
 .del-btn.armed{opacity:1;color:#fff;background:#d4586f;font-size:11px;padding:3px 6px}
 </style></head>
 <body><div id="top-trim"></div><div id="maid-stage"><img id="maid-left" src="/assets/maid-left.webp" alt=""><img id="maid-right" src="/assets/maid-right.webp" alt=""></div><div id="app">
-<aside id="sidebar"><div style="display:flex;justify-content:flex-end;margin-bottom:4px"><button id="btn-collapse" class="icon-btn" title="折叠侧栏">«</button></div><img id="maid-chibi" src="/assets/chibi.webp" alt=""><div class="brand">🐋 HongClaw <span class="ver">深海女仆工坊 · v1.4.0</span></div><button id="new-session" class="btn primary">+ 新会话</button><div id="session-list"></div><div class="sidebar-foot" style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap"><button id="btn-doctor" class="btn">诊断</button><button id="btn-cron" class="btn">定时</button><button id="btn-skills" class="btn">技能</button><button id="btn-mcp" class="btn">MCP</button><button id="btn-usage" class="btn">用量</button><button id="btn-config" class="btn">配置</button></div></aside>
+<aside id="sidebar"><div style="display:flex;justify-content:flex-end;margin-bottom:4px"><button id="btn-collapse" class="icon-btn" title="折叠侧栏">«</button></div><img id="maid-chibi" src="/assets/chibi.webp" alt=""><div class="brand">🐋 HongClaw <span class="ver">深海女仆工坊 · v1.4.1</span></div><button id="new-session" class="btn primary">+ 新会话</button><div id="session-list"></div><div class="sidebar-foot" style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap"><button id="btn-doctor" class="btn">诊断</button><button id="btn-cron" class="btn">定时</button><button id="btn-skills" class="btn">技能</button><button id="btn-mcp" class="btn">MCP</button><button id="btn-usage" class="btn">用量</button><button id="btn-config" class="btn">配置</button></div></aside>
 <main id="main"><header id="topbar"><button id="btn-expand" class="icon-btn" style="display:none;margin-right:8px" title="展开侧栏">»</button><div id="status" class="err">连接中…</div><div style="display:flex;gap:8px;align-items:center"><select id="model-select" title="切换模型"></select><select id="effort-select" title="思考强度"><option value="off">思考·关</option><option value="low">思考·低</option><option value="medium">思考·中</option><option value="high">思考·高</option></select></div></header><div id="messages"></div>
 <form id="composer"><textarea id="input" rows="1" placeholder="输入消息，回车发送（/skills 列出技能，/skill 名称 执行技能）"></textarea><button type="submit" class="btn primary">发送</button></form></main>
 </div>
