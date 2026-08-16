@@ -1,7 +1,7 @@
 {
   "name": "hongclaw",
-  "version": "1.0.0",
-  "description": "鸿蒙电脑原生 AI Agent：对标 OpenClaw，纯 Node.js 零依赖，Gateway + Web UI",
+  "version": "1.3.0",
+  "description": "鸿蒙电脑原生 AI Agent：对标 OpenClaw。纯 Node.js 零依赖，Gateway + Web UI + 鲸鱼娘皮肤 + 多模型/定时/邮箱/心跳/Doctor",
   "license": "MIT",
   "bin": {
     "hongclaw": "./hongclaw.js"
@@ -12,7 +12,9 @@
     "gateway",
     "webui",
     "harmonyos",
-    "openclaw"
+    "openclaw",
+    "maid",
+    "whale"
   ],
   "engines": {
     "node": ">=18.17"
